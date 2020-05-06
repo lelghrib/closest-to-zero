@@ -21,6 +21,10 @@ describe("closestToZero", () => {
     expect(closestToZero([8, 2, 3, -2])).toBe(2);
   });
 
+  it("should return 2 when input is [8, -2, 3, 2]", () => {
+    expect(closestToZero([8, -2, 3, 2])).toBe(2);
+  });
+
   it("should return 0 when input is [2, 0]", () => {
     expect(closestToZero([2, 0])).toBe(0);
   });
